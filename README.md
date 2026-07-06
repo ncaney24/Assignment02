@@ -19,7 +19,7 @@ InternetService_Fiber optic, InternetService_No.
 
 ### Google Colab (recommended)
 1. Upload `Assignment_02_Telco.ipynb` to Colab
-2. Run the first cell — it installs all dependencies automatically
+2. Run the first cell - it installs all dependencies automatically
 3. When the `files.upload()` cell runs, upload `telco.csv`
 4. Run all cells top to bottom (Runtime → Run all)
 5. Three chart PNGs will be saved to the Colab file browser
@@ -35,7 +35,7 @@ jupyter notebook Assignment_02_Telco.ipynb
 ## Repository structure
 
 ```
-├── Assignment_02_Telco.ipynb       # main notebook — all 9 requirements
+├── Assignment_02_Telco.ipynb       # main notebook - all 9 requirements
 ├── findings_summary_A02.md         # one-page summary answering all 8 questions
 ├── telco.csv                       # input dataset
 ├── chart_actual_vs_predicted.png   # actual vs predicted scatter (run to generate)
