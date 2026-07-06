@@ -1,4 +1,4 @@
-# EECE 5644 — Assignment #02: Telco Monthly Charge Prediction
+# EECE 5644 - Assignment #02: Telco Monthly Charge Prediction
 
 ## What this project does
 Builds a multivariable linear regression model to predict a Telco customer's
@@ -7,7 +7,7 @@ The model learns an individual dollar contribution for each of 10 services
 and answers 8 practical billing questions for the revenue team.
 
 ## Dataset
-`telco.csv` — 7,043 rows, pre-cleaned from the Telco Customer Churn dataset.
+`telco.csv` - 7,043 rows, pre-cleaned from the Telco Customer Churn dataset.
 The file is included in this repository so no Kaggle download is needed.
 
 The target column is `target` (MonthlyCharges). The 10 predictor columns are
