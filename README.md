@@ -1,4 +1,4 @@
-# EECE 6544 — Assignment #02: Telco Monthly Charge Prediction
+# EECE 5644 — Assignment #02: Telco Monthly Charge Prediction
 
 ## What this project does
 Builds a multivariable linear regression model to predict a Telco customer's
