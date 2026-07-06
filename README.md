@@ -39,7 +39,7 @@ jupyter notebook Assignment_02_Telco.ipynb
 ├── findings_summary_A02.md         # one-page summary answering all 8 questions
 ├── telco.csv                       # input dataset
 ├── chart_actual_vs_predicted.png   # actual vs predicted scatter (run to generate)
-├── chart_model_comparison.png      # R² comparison bar chart (run to generate)
+├── chart_model_comparison.png      # R2 comparison bar chart (run to generate)
 ├── chart_coefficients.png          # coefficient bar chart (run to generate)
 ├── requirements.txt
 └── README.md
@@ -49,7 +49,7 @@ jupyter notebook Assignment_02_Telco.ipynb
 
 | Metric | Single-variable model | Multivariable model |
 |--------|-----------------------|---------------------|
-| R² | 0.599 | **0.999** |
+| R2 | 0.599 | **0.999** |
 | MAE | $16.97 | **$0.79** |
 | RMSE | $19.06 | **$1.05** |
 
@@ -57,4 +57,4 @@ jupyter notebook Assignment_02_Telco.ipynb
 - Most expensive add-on: **Fiber optic internet (+$24.95/mo)**
 - Cheapest add-on: **OnlineBackup (+$4.98/mo)**
 - Knowing *which* services a customer has is far more accurate than
-  just knowing *how many* — R² jumps from 0.599 to 0.999
+  just knowing *how many* — R2 jumps from 0.599 to 0.999

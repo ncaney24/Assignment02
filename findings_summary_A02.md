@@ -10,7 +10,7 @@
 ## Q1. What does the base plan cost before any add-ons?
 
 The intercept came out to **$24.97/mo**. That's what the model expects a
-customer to pay if they have none of the 10 tracked services — essentially
+customer to pay if they have none of the 10 tracked services essentially
 the floor price of just being a Telco customer.
 
 ---
@@ -30,7 +30,7 @@ the floor price of just being a Telco customer.
 | OnlineBackup | +$4.98 |
 | InternetService_No | -$25.05 |
 
-The negative value for `InternetService_No` makes sense — customers with
+The negative value for `InternetService_No` makes sense customers with
 no internet at all skip every internet-based add-on, so their bill is
 pulled down significantly from the average.
 
@@ -44,7 +44,7 @@ pulled down significantly from the average.
 - **Cheapest actual add-on:** OnlineBackup (+$4.98/mo)
 
 Fiber is the biggest driver of monthly charges by far, which is what
-you'd expect — it's a premium tier upgrade versus DSL.
+you'd expect as it's a premium tier upgrade versus DSL.
 
 ---
 
@@ -67,9 +67,9 @@ That's the base ($24.97) + PhoneService ($20.04) + MultipleLines ($5.01)
 
 ## Q6. Is knowing *which* services better than knowing *how many*?
 
-Yes — by a lot.
+Yes, by a lot.
 
-| Model | R² | MAE | RMSE |
+| Model | R2 | MAE | RMSE |
 |-------|----|-----|------|
 | Single-variable (count of add-ons) | 0.599 | $16.97 | $19.06 |
 | Multivariable (each service) | **0.999** | **$0.79** | **$1.05** |
@@ -82,7 +82,7 @@ of each service and is almost exact.
 
 ## Q7. How accurate are predictions on unseen customers?
 
-- **R² = 0.999** — the model explains 99.9% of the variance in monthly charges
+- **R2 = 0.999** — the model explains 99.9% of the variance in monthly charges
 - **MAE = $0.79** — on average, predictions are less than a dollar off
 - **RMSE = $1.05** — even the larger errors are only about a dollar
 
